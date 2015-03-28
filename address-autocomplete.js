@@ -1,8 +1,9 @@
 (function ($) {
 
-	$.fn.auto_address = function() {
+	$.fn.auto_address = function(options) {
 
 		var base = this;//To avoid scope issues
+        options = options ? options : {};
 
 		//Google maps - address autocomplete - initialize
 		(function() {
@@ -28,7 +29,7 @@
 		// Bias the autocomplete object to the user's geographical location,
 		// as supplied by the browser's 'navigator.geolocation' object.
 		$(base).on("focus", function() {
-			if (navigator.geolocation) {
+			if (navigator.geolocation && (options.user_region !== false)) {
 				navigator.geolocation.getCurrentPosition(function(position) {
 					var geolocation = new google.maps.LatLng(
 						position.coords.latitude, position.coords.longitude);

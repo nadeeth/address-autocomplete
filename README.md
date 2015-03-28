@@ -28,6 +28,20 @@ $(function() {
 
 ## Options
 
+### expires
+
+    user_region : false
+
+Bias the autocomplete object to the user's geographical location, as supplied by the browser's 'navigator.geolocation' object. Default value is 'true'.
+
+Ex: 
+```javascript
+$("#autocomplete").auto_address({
+    user_region : false
+});
+```
+
+
 ## Demo
 
 [http://weaselshark.github.io/address-autocomplete](http://weaselshark.github.io/address-autocomplete/)

@@ -30,4 +30,6 @@ $(function() {
 
 ## Demo
 
+[http://weaselshark.github.io/address-autocomplete](http://weaselshark.github.io/address-autocomplete/)
+
 ## Issues & Suggestions

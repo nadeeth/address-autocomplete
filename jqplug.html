@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>jQuery Address Autocomplete Plugin</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			#autocomplete {
+				width: 350px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			Address:<input type="text" id="autocomplete" />
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+		<script src="auto_address.js"></script>
+		<script>
+			$(function() {
+				$("#autocomplete").auto_address();
+			});
+		</script>
+	</body>
+</html>

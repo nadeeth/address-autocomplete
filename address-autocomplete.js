@@ -22,7 +22,7 @@
 		//Extract the address information and pupulate the form
 		function fillInAddress() {
 			// Get the place details from the autocomplete object.
-			var place = autocomplete.getPlace();
+			var place = autocomplete.getPlace();//TODO: option to fill multiple fields.
 		}
 
 		// [START region_geolocation]

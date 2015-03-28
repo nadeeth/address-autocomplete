@@ -1,1 +1,33 @@
-# address-autocomplete
+# Address Autocomplete with Google Maps
+
+
+## Installation
+
+Clone this [repository](https://github.com/weaselshark/address-autocomplete.git) or download the [latest build](https://github.com/weaselshark/address-autocomplete/archive/master.zip).
+
+Include jQuery library and google maps API places library:
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+```
+
+Include address-autocomplete.js *after* the jQuery library:
+
+```html
+<script src="/path/to/address-autocomplete.js"></script>
+```
+
+## Usage
+
+```javascript
+$(function() {
+    $("#autocomplete").auto_address(); // 'autocomplete' is the id of the text box to be auto filled. 
+});
+```
+
+## Options
+
+## Demo
+
+## Issues & Suggestions

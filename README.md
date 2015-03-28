@@ -33,3 +33,7 @@ $(function() {
 [http://weaselshark.github.io/address-autocomplete](http://weaselshark.github.io/address-autocomplete/)
 
 ## Issues & Suggestions
+
+Please track issues, bugs, and feature requests in this tracker.
+
+[https://github.com/weaselshark/address-autocomplete/issues](https://github.com/weaselshark/address-autocomplete/issues)

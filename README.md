@@ -28,7 +28,7 @@ $(function() {
 
 ## Options
 
-### expires
+### user_region
 
     user_region : false
 

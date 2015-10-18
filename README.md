@@ -3,7 +3,7 @@
 
 ## Installation
 
-Clone this [repository](https://github.com/weaselshark/address-autocomplete.git) or download the [latest build](https://github.com/weaselshark/address-autocomplete/archive/master.zip).
+Clone this [repository](https://github.com/nadeeth/address-autocomplete.git) or download the [latest build](https://github.com/nadeeth/address-autocomplete/archive/master.zip).
 
 Include jQuery library and google maps API places library:
 
@@ -44,10 +44,10 @@ $("#autocomplete").auto_address({
 
 ## Demo
 
-[http://weaselshark.github.io/address-autocomplete](http://weaselshark.github.io/address-autocomplete/)
+[http://nadeeth.github.io/address-autocomplete](http://weaselshark.github.io/address-autocomplete/)
 
 ## Issues & Suggestions
 
 Please track issues, bugs, and feature requests in this tracker.
 
-[https://github.com/weaselshark/address-autocomplete/issues](https://github.com/weaselshark/address-autocomplete/issues)
+[https://github.com/nadeeth/address-autocomplete/issues](https://github.com/weaselshark/address-autocomplete/issues)

@@ -44,10 +44,10 @@ $("#autocomplete").auto_address({
 
 ## Demo
 
-[http://nadeeth.github.io/address-autocomplete](http://weaselshark.github.io/address-autocomplete/)
+[http://nadeeth.github.io/address-autocomplete](http://nadeeth.github.io/address-autocomplete/)
 
 ## Issues & Suggestions
 
 Please track issues, bugs, and feature requests in this tracker.
 
-[https://github.com/nadeeth/address-autocomplete/issues](https://github.com/weaselshark/address-autocomplete/issues)
+[https://github.com/nadeeth/address-autocomplete/issues](https://github.com/nadeeth/address-autocomplete/issues)
